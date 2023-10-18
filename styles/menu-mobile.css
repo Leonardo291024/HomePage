@@ -1,0 +1,30 @@
+.menu-mobile{
+    display: none;    
+    position: absolute;
+    right: 0px;
+    background-color: hsl(0deg 0% 86.76%);;
+    width: 70%;
+    height: 100vh;
+    top: 0px;
+}
+
+.menu-mobile figure{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+.menu-mobile ul{
+    padding: 50px 20px;
+    list-style: none;
+}
+
+.menu-mobile li{
+    margin-bottom: 10px;
+}
+
+.menu-mobile a{
+    font-size: 24px;
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+}

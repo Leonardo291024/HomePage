@@ -1,0 +1,13 @@
+.container-header{
+    position: relative;
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(min-width: 765px){
+    .icon-menu{
+        display: none;
+    }
+}

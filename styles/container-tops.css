@@ -1,0 +1,28 @@
+.container-tops{
+    margin-top: 50px;
+}
+
+.container-tops article{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.container-tops img{
+    width: 40%;
+}
+
+.container-tops div{
+    margin-left: 8px;
+}
+
+.container-tops div h1{
+    color: hsl(233, 8%, 79%);
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.container-tops div h2{
+    font-size: 16px;
+    margin-bottom: 5px;
+}

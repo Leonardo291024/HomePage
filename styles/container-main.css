@@ -1,0 +1,24 @@
+.container-main{
+    padding: 15px 15px;
+}
+
+.encabezado .title-principal{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.encabezado p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color:  hsl(236, 13%, 42%);
+}
+
+.encabezado button{
+    padding: 10px 45px;
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    font-size: 15px;
+    font-weight: 400;
+}

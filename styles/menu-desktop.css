@@ -1,0 +1,23 @@
+.menu-desktop ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu-desktop li{
+    margin-right: 10px;
+}
+
+.menu-desktop a{
+    color: hsl(240, 100%, 5%);
+    text-decoration: none;
+}
+
+.menu-desktop a:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+@media(max-width: 765px){
+    .menu-desktop{
+        display: none;
+    }
+}
