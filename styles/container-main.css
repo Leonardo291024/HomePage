@@ -22,3 +22,20 @@
     font-size: 15px;
     font-weight: 400;
 }
+
+@media(min-width: 735px){
+    .container-main{
+        min-width: 440px;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        gap: 15px;
+    }
+
+    .encabezado{
+        display: grid;
+        align-items: center;
+        grid-auto-rows: 280px;
+        grid-template-columns: 250px 320px;
+    
+    }
+}

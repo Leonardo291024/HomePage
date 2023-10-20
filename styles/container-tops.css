@@ -1,5 +1,8 @@
 .container-tops{
+    padding: 15px 15px;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .container-tops article{
@@ -25,4 +28,13 @@
 .container-tops div h2{
     font-size: 16px;
     margin-bottom: 5px;
+}
+
+@media(min-width: 735px){
+    .container-tops{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        justify-content: center;
+        gap: 90px;
+    }   
 }

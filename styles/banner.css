@@ -1,7 +1,20 @@
-.banner{
-    padding: 15px 15px;
+.banner .baner-mobile{
+    width: 100%;
 }
 
-.banner img{
-    width: 100%;
+.banner .banner-desktop{
+    display: none;
+}
+@media(min-width: 765px){
+    .banner .banner-desktop{
+        display: block;
+    }
+    
+    .banner .baner-mobile{
+        display: none;
+    }
+
+    .banner .banner-desktop{
+        width: 100%;
+    }
 }

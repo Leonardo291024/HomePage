@@ -28,3 +28,9 @@
     margin-bottom: 15px;
     color: hsl(233, 8%, 79%);
 }
+
+@media(min-width: 735px){
+    .container-New{
+        margin-top: 0px;
+    }
+}
