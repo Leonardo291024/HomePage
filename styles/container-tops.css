@@ -30,6 +30,10 @@
     margin-bottom: 5px;
 }
 
+.container-tops div h2:hover{
+    color: hsl(35, 77%, 62%);
+}
+
 @media(min-width: 735px){
     .container-tops{
         display: grid;

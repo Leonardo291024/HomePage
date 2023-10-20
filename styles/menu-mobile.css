@@ -1,5 +1,8 @@
-.menu-mobile{
-    display: none;    
+#menu{
+    display: none;
+}
+
+.menu-mobile{    
     position: absolute;
     right: 0px;
     background-color: hsl(0deg 0% 86.76%);;
@@ -12,6 +15,7 @@
     display: flex;
     justify-content: flex-end;
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 .menu-mobile ul{
@@ -27,4 +31,8 @@
     font-size: 24px;
     text-decoration: none;
     color: hsl(240, 100%, 5%);
+}
+
+.menu-mobile a:hover{
+    color: hsl(35, 77%, 62%);
 }

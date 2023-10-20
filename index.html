@@ -19,7 +19,7 @@
 <body>
     <header class="container-header">
         <img src="./assets/images/logo.svg" alt="logo" class="logo-header">
-        <img src="./assets/images/icon-menu.svg" alt="icon-menu" class="icon-menu">
+        <img src="./assets/images/icon-menu.svg" alt="icon-menu" class="icon-menu" id="toogleMenu">
 
         <section class="menu-desktop">
             <ul>
@@ -41,9 +41,9 @@
             </ul>
         </section>
 
-        <section class="menu-mobile">
+        <section class="menu-mobile" id="menu">
             <figure>
-                <img src="./assets/images/icon-menu-close.svg" alt="icon-close">
+                <img src="./assets/images/icon-menu-close.svg" alt="icon-close" id="toogleClose">
             </figure>
             
             <ul>
@@ -131,5 +131,7 @@
             </div>
         </article>
     </section>
+
+    <script src="./main/mostrar-menu.js"></script>
 </body>
 </html>

@@ -17,10 +17,15 @@
 .encabezado button{
     padding: 10px 45px;
     border: none;
-    background-color: hsl(5, 85%, 63%);
+    background-color: hsl(35, 77%, 62%);
     color: hsl(36, 100%, 99%);
     font-size: 15px;
     font-weight: 400;
+    cursor: pointer;
+}
+
+.encabezado button:hover{
+    background-color: hsl(240, 100%, 5%);
 }
 
 @media(min-width: 735px){

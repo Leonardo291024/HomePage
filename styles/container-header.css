@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.container-header .icon-menu{
+    cursor: pointer;
+}
+
 @media(min-width: 765px){
     .icon-menu{
         display: none;
